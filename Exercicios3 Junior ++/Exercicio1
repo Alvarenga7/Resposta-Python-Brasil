@@ -1,0 +1,9 @@
+nota = float(input("Digite uma nota entre 0 a 10: "))
+
+while  nota > 10 or nota < 0:
+    print('Este valor esta invalido')
+    nota = float(input("Digite uma nota entre 0 a 10: "))
+    
+
+if nota < 10 or nota > 0:
+    print('Este valor é valido')
