@@ -1,0 +1,5 @@
+pares = [2,4,6,8,10,12,14,16,18,20]
+
+for numero in range(0,21):
+    if numero in pares:
+        print (numero)
